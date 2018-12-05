@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZStackViewController" customModule="SwiftDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnLong" destination="guH-pN-ck7" id="ZMi-ow-llT"/>
+                <outlet property="btnShort" destination="k08-w7-oOC" id="i3m-Uo-URJ"/>
+                <outlet property="detailLabel" destination="x4b-hu-NZm" id="zop-Nb-OQY"/>
+                <outlet property="img1" destination="P9I-hj-9sH" id="tyr-Ic-VJ2"/>
+                <outlet property="img2" destination="6T9-mL-M8B" id="M7v-8c-R9v"/>
+                <outlet property="img3" destination="TvQ-IJ-YBb" id="nGd-G9-gfC"/>
+                <outlet property="titleLabel" destination="Vrz-mz-pAD" id="LpU-a6-015"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aRK-eZ-8rk">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="467"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P9I-hj-9sH">
+                            <rect key="frame" x="0.0" y="0.0" width="118.5" height="467"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6T9-mL-M8B">
+                            <rect key="frame" x="128.5" y="0.0" width="118" height="467"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TvQ-IJ-YBb">
+                            <rect key="frame" x="256.5" y="0.0" width="118.5" height="467"/>
+                        </imageView>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NP9-XQ-OHd">
+                    <rect key="frame" x="10" y="487" width="355" height="118"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tgA-y6-XQ5">
+                            <rect key="frame" x="0.0" y="0.0" width="330" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一个叫标题的头，还是尽可能长一点" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrz-mz-pAD">
+                                    <rect key="frame" x="0.0" y="0.0" width="160" height="36"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kl2-Rv-AZ9">
+                                    <rect key="frame" x="170" y="0.0" width="160" height="30"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k08-w7-oOC">
+                                            <rect key="frame" x="0.0" y="0.0" width="38" height="30"/>
+                                            <state key="normal" title="按钮1"/>
+                                            <connections>
+                                                <action selector="shortClick:" destination="-1" eventType="touchUpInside" id="Mib-ii-uqF"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guH-pN-ck7">
+                                            <rect key="frame" x="52" y="0.0" width="108" height="30"/>
+                                            <state key="normal" title="按钮名字长一点">
+                                                <color key="titleColor" red="0.0" green="0.75686274509999996" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="longClick:" destination="-1" eventType="touchUpInside" id="Rr8-jn-o0z"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="TnN-GN-yVY"/>
+                                        <constraint firstAttribute="width" constant="160" id="olE-Kr-nqA"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一个叫内容的折行，这个可能需要这行两到三次一个叫内容的折行，这个可能需要这行两到三次一个叫内容的折行，这个可能需要这行两到三次一个叫内容的折行，这个可能需要这行两到三次一个叫内容的折行，这个可能需要这行两到三次一个叫内容的折行，这个可能需要这行两到三次" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4b-hu-NZm">
+                            <rect key="frame" x="0.0" y="46" width="343.5" height="72"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aRK-eZ-8rk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5VM-gd-RWa"/>
+                <constraint firstAttribute="trailing" secondItem="NP9-XQ-OHd" secondAttribute="trailing" constant="10" id="9ce-BR-OR8"/>
+                <constraint firstItem="NP9-XQ-OHd" firstAttribute="top" secondItem="aRK-eZ-8rk" secondAttribute="bottom" constant="20" id="DMo-xZ-sKf"/>
+                <constraint firstItem="aRK-eZ-8rk" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.7" id="Vn6-Rs-xNm"/>
+                <constraint firstItem="NP9-XQ-OHd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="W2E-ZW-mkX"/>
+                <constraint firstItem="aRK-eZ-8rk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iBy-Rh-rK9"/>
+                <constraint firstAttribute="trailing" secondItem="aRK-eZ-8rk" secondAttribute="trailing" id="pCs-p4-QKN"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="3.jpg" width="1400" height="933"/>
+        <image name="4.jpg" width="1400" height="1749"/>
+        <image name="img.jpg" width="3840" height="2560"/>
+    </resources>
+</document>
