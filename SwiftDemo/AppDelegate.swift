@@ -18,15 +18,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIView.appearance().semanticContentAttribute = .forceLeftToRight
         // Override point for customization after application launch.
 //        let vc = GuideViewController.init()
-////        let win = UIWindow
+        window = UIWindow.init(frame: ScreenBounds)
+        window?.rootViewController = UINavigationController.init(rootViewController: ViewController())
+        window?.makeKeyAndVisible()
 //
 //        
 //        let url = FWDeviceInfo.shareInstance().htmls("http://www.baidu.com")
 //        print(url)
-        
+//        window = UIWindow.init(frame: ScreenBounds)
+//        window?.makeKeyAndVisible()
         return true
     }
 
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

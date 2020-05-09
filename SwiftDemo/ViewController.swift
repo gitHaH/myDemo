@@ -19,7 +19,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     var personS = [Person]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationController?.pushViewController(AttributeViewController(), animated: true)
+        return;
+            
         self.view.backgroundColor = UIColor.cyan
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "whatF"

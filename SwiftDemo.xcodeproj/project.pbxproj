@@ -14,7 +14,6 @@
 		1825E926211ADBF800082DD7 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825E925211ADBF700082DD7 /* GuideViewController.swift */; };
 		182616691FA9A5F9004BFF02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182616681FA9A5F9004BFF02 /* AppDelegate.swift */; };
 		1826166B1FA9A5F9004BFF02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826166A1FA9A5F9004BFF02 /* ViewController.swift */; };
-		1826166E1FA9A5F9004BFF02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1826166C1FA9A5F9004BFF02 /* Main.storyboard */; };
 		182616701FA9A5F9004BFF02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1826166F1FA9A5F9004BFF02 /* Assets.xcassets */; };
 		182616731FA9A5F9004BFF02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182616711FA9A5F9004BFF02 /* LaunchScreen.storyboard */; };
 		182BA170212D5835000CD881 /* StruckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BA16F212D5835000CD881 /* StruckViewController.swift */; };
@@ -64,6 +63,11 @@
 		18F188092194499700F63CD1 /* AA.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F188082194499700F63CD1 /* AA.xib */; };
 		18F1880B219449A700F63CD1 /* AA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1880A219449A700F63CD1 /* AA.swift */; };
 		18F94B31216C4E0D00A2CF30 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F94B30216C4E0D00A2CF30 /* SortViewController.swift */; };
+		68203C6E244011A0002C323C /* AttributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68203C6D244011A0002C323C /* AttributeViewController.swift */; };
+		68203C70244068E6002C323C /* ZZSubscripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68203C6F244068E6002C323C /* ZZSubscripViewController.swift */; };
+		68203C7224445940002C323C /* ARBaseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68203C7124445940002C323C /* ARBaseScrollView.swift */; };
+		68350791245986950090839B /* UITextView+zz.m in Sources */ = {isa = PBXBuildFile; fileRef = 68350790245986950090839B /* UITextView+zz.m */; };
+		68AB648F2456E54700A3009C /* UITextView+DisableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AB648E2456E54700A3009C /* UITextView+DisableCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,7 +94,6 @@
 		182616651FA9A5F9004BFF02 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182616681FA9A5F9004BFF02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1826166A1FA9A5F9004BFF02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1826166D1FA9A5F9004BFF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1826166F1FA9A5F9004BFF02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182616721FA9A5F9004BFF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182616741FA9A5F9004BFF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -148,6 +151,13 @@
 		18F188082194499700F63CD1 /* AA.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AA.xib; sourceTree = "<group>"; };
 		18F1880A219449A700F63CD1 /* AA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AA.swift; sourceTree = "<group>"; };
 		18F94B30216C4E0D00A2CF30 /* SortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
+		68203C6D244011A0002C323C /* AttributeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeViewController.swift; sourceTree = "<group>"; };
+		68203C6F244068E6002C323C /* ZZSubscripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZSubscripViewController.swift; sourceTree = "<group>"; };
+		68203C7124445940002C323C /* ARBaseScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARBaseScrollView.swift; sourceTree = "<group>"; };
+		6835078F245986950090839B /* UITextView+zz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+zz.h"; sourceTree = "<group>"; };
+		68350790245986950090839B /* UITextView+zz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+zz.m"; sourceTree = "<group>"; };
+		68AB648D2456E54700A3009C /* UITextView+DisableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+DisableCopy.h"; sourceTree = "<group>"; };
+		68AB648E2456E54700A3009C /* UITextView+DisableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+DisableCopy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,11 +206,18 @@
 				1826166A1FA9A5F9004BFF02 /* ViewController.swift */,
 				18C503B621A26B26001523BD /* ZZZViewController.swift */,
 				187A12F02178662B00387EBD /* YDHomeCoursesCell.swift */,
+				68203C7124445940002C323C /* ARBaseScrollView.swift */,
 				187A12F12178662B00387EBD /* YDHomeCoursesCell.xib */,
 				187A12EE2178660600387EBD /* NewiewController.swift */,
 				1872B5291FAAAD6C002404FB /* BaseViewConteroller.swift */,
 				18F188082194499700F63CD1 /* AA.xib */,
 				18F1880A219449A700F63CD1 /* AA.swift */,
+				68203C6F244068E6002C323C /* ZZSubscripViewController.swift */,
+				68AB648D2456E54700A3009C /* UITextView+DisableCopy.h */,
+				68AB648E2456E54700A3009C /* UITextView+DisableCopy.m */,
+				6835078F245986950090839B /* UITextView+zz.h */,
+				68350790245986950090839B /* UITextView+zz.m */,
+				68203C6C24401187002C323C /* 富文本 */,
 				188D137D21AC049500DCAD7A /* mvvm */,
 				188D137721ABEF3B00DCAD7A /* 扩充点击区域 */,
 				186E01AA2159E40900019367 /* 泛型 */,
@@ -216,7 +233,6 @@
 				18A5730D219C11B100C9E209 /* 转场动画 */,
 				1825E91C211AD86B00082DD7 /* Global.swift */,
 				186598F421AFE2310076ACDA /* UI_extension */,
-				1826166C1FA9A5F9004BFF02 /* Main.storyboard */,
 				188BE112217F1A4100CA5066 /* 郭黄之恋.txt */,
 				1826166F1FA9A5F9004BFF02 /* Assets.xcassets */,
 				182616711FA9A5F9004BFF02 /* LaunchScreen.storyboard */,
@@ -406,6 +422,14 @@
 			path = "test/算法/数据结构和算法";
 			sourceTree = "<group>";
 		};
+		68203C6C24401187002C323C /* 富文本 */ = {
+			isa = PBXGroup;
+			children = (
+				68203C6D244011A0002C323C /* AttributeViewController.swift */,
+			);
+			path = "富文本";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -479,7 +503,6 @@
 				182616731FA9A5F9004BFF02 /* LaunchScreen.storyboard in Resources */,
 				182616701FA9A5F9004BFF02 /* Assets.xcassets in Resources */,
 				187A12F32178662C00387EBD /* YDHomeCoursesCell.xib in Resources */,
-				1826166E1FA9A5F9004BFF02 /* Main.storyboard in Resources */,
 				188BE113217F1A4100CA5066 /* 郭黄之恋.txt in Resources */,
 				18F188092194499700F63CD1 /* AA.xib in Resources */,
 				183B99722126673C00B78D3F /* star.png in Resources */,
@@ -508,9 +531,12 @@
 				1870C09B215B7E02009510BE /* DrawWhat.swift in Sources */,
 				18E43845212275FC0037528B /* VarViewController.swift in Sources */,
 				186E01AC2159E45100019367 /* TFunk.swift in Sources */,
+				68AB648F2456E54700A3009C /* UITextView+DisableCopy.m in Sources */,
 				1825E91B211ACF6900082DD7 /* FWNothingView.swift in Sources */,
 				1836F15F214A3C75000B50D8 /* ZZSaveClose.swift in Sources */,
 				188D137921ABEF6900DCAD7A /* ZZMyButton.swift in Sources */,
+				68203C6E244011A0002C323C /* AttributeViewController.swift in Sources */,
+				68350791245986950090839B /* UITextView+zz.m in Sources */,
 				187A12EF2178660600387EBD /* NewiewController.swift in Sources */,
 				18E438492122A18C0037528B /* FWDeviceInfo.m in Sources */,
 				1825E926211ADBF800082DD7 /* GuideViewController.swift in Sources */,
@@ -525,8 +551,10 @@
 				182616691FA9A5F9004BFF02 /* AppDelegate.swift in Sources */,
 				18421132216F5DFE0023C6DC /* TBCycleView.m in Sources */,
 				182F73222147A750000E40B8 /* QuestionScrollView.swift in Sources */,
+				68203C70244068E6002C323C /* ZZSubscripViewController.swift in Sources */,
 				183B99752126747C00B78D3F /* ZStackTableViewController.swift in Sources */,
 				188D138021AC04FC00DCAD7A /* RACCommand.m in Sources */,
+				68203C7224445940002C323C /* ARBaseScrollView.swift in Sources */,
 				1862795B2192B83700DBFFD7 /* TextKitVC.swift in Sources */,
 				185DCF672133E770002FB5FF /* WritingCopyVC.swift in Sources */,
 				187A12F22178662C00387EBD /* YDHomeCoursesCell.swift in Sources */,
@@ -539,14 +567,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1826166C1FA9A5F9004BFF02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1826166D1FA9A5F9004BFF02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		182616711FA9A5F9004BFF02 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -672,6 +692,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SY228YJMW9;
+				IBSC_FLATTEN_NIBS = NO;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -691,6 +712,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SY228YJMW9;
+				IBSC_FLATTEN_NIBS = NO;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

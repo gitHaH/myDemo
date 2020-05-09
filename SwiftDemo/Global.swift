@@ -30,8 +30,8 @@ let __SCREEN_BOUNDS = UIScreen.main.bounds
 let __SCREEN_SIZE = UIScreen.main.bounds.size
 let __SCREEN_BOUNDS_SIZE_CHAGE = CGRect(x: 0, y: 0, width: __SCREEN_SIZE.height, height: __SCREEN_SIZE.width)
 
-let __iPhoneX = (__CGSizeEqualToSize(CGSize(width: 375, height: 812), __SCREEN_SIZE) || __CGSizeEqualToSize(CGSize(width: 812, height: 375), __SCREEN_SIZE))
-let __StatusBarH = CGFloat(__iPhoneX ? 44:20)
+//let __iPhoneX = (__CGSizeEqualToSize(CGSize(width: 375, height: 812), __SCREEN_SIZE) || __CGSizeEqualToSize(CGSize(width: 812, height: 375), __SCREEN_SIZE))
+//let __StatusBarH = CGFloat(__ ? 44:20)
 
 func CGScaleXC(_ __v__ : CGFloat) -> CGFloat { return (__SCREEN_SIZE.width - ceil((__v__*(__SCREEN_SIZE.width/375.0))))*0.5 }
 func CGScaleX(_ __v__ : CGFloat) -> CGFloat { return round((__v__*(__SCREEN_SIZE.width/375.0))) }
@@ -71,3 +71,15 @@ let BUNDLEID = Bundle.main.infoDictionary!["CFBundleIdentifier"] as! String
 
 public let COLOR_BKG = __RGB(0xf6f6f6)
 public let CGRectMin = CGRect(x: 0, y: 0, width: 0, height: 0.001)
+
+//
+public func __iPhoneX() -> Bool {
+    guard #available(iOS 11.0, *) else {
+        return false
+    }
+    return UIApplication.shared.windows[0].safeAreaInsets.bottom > 0
+}
+public let __StatusBarH = CGFloat(false ? (__iPhoneX() ? 24:20) : (__iPhoneX() ? 44:20))
+public let __NavNotStatusH = CGFloat(false ? 50 : 44)//ipad navheight=50
+public let __NavHeight = __StatusBarH+__NavNotStatusH
+public let __NavH = __NavHeight
