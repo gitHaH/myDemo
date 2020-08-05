@@ -67,7 +67,10 @@
 		68203C70244068E6002C323C /* ZZSubscripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68203C6F244068E6002C323C /* ZZSubscripViewController.swift */; };
 		68203C7224445940002C323C /* ARBaseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68203C7124445940002C323C /* ARBaseScrollView.swift */; };
 		68350791245986950090839B /* UITextView+zz.m in Sources */ = {isa = PBXBuildFile; fileRef = 68350790245986950090839B /* UITextView+zz.m */; };
+		6877293224AC39F200FB5CC3 /* ZZSelectSitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877293124AC39F200FB5CC3 /* ZZSelectSitViewController.swift */; };
+		68966C7A246D273B00AAD26F /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68966C79246D273B00AAD26F /* AnimationViewController.swift */; };
 		68AB648F2456E54700A3009C /* UITextView+DisableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AB648E2456E54700A3009C /* UITextView+DisableCopy.m */; };
+		68F5574A24A1B0400025137E /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F5574924A1B0400025137E /* SwiftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -156,8 +159,11 @@
 		68203C7124445940002C323C /* ARBaseScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARBaseScrollView.swift; sourceTree = "<group>"; };
 		6835078F245986950090839B /* UITextView+zz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+zz.h"; sourceTree = "<group>"; };
 		68350790245986950090839B /* UITextView+zz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+zz.m"; sourceTree = "<group>"; };
+		6877293124AC39F200FB5CC3 /* ZZSelectSitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZSelectSitViewController.swift; sourceTree = "<group>"; };
+		68966C79246D273B00AAD26F /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		68AB648D2456E54700A3009C /* UITextView+DisableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+DisableCopy.h"; sourceTree = "<group>"; };
 		68AB648E2456E54700A3009C /* UITextView+DisableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+DisableCopy.m"; sourceTree = "<group>"; };
+		68F5574924A1B0400025137E /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +223,9 @@
 				68AB648E2456E54700A3009C /* UITextView+DisableCopy.m */,
 				6835078F245986950090839B /* UITextView+zz.h */,
 				68350790245986950090839B /* UITextView+zz.m */,
+				68966C79246D273B00AAD26F /* AnimationViewController.swift */,
+				6877293024AC39D100FB5CC3 /* 影院选座 */,
+				68F5574824A1B0300025137E /* Swift */,
 				68203C6C24401187002C323C /* 富文本 */,
 				188D137D21AC049500DCAD7A /* mvvm */,
 				188D137721ABEF3B00DCAD7A /* 扩充点击区域 */,
@@ -430,6 +439,22 @@
 			path = "富文本";
 			sourceTree = "<group>";
 		};
+		6877293024AC39D100FB5CC3 /* 影院选座 */ = {
+			isa = PBXGroup;
+			children = (
+				6877293124AC39F200FB5CC3 /* ZZSelectSitViewController.swift */,
+			);
+			path = "影院选座";
+			sourceTree = "<group>";
+		};
+		68F5574824A1B0300025137E /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				68F5574924A1B0400025137E /* SwiftViewController.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -532,6 +557,8 @@
 				18E43845212275FC0037528B /* VarViewController.swift in Sources */,
 				186E01AC2159E45100019367 /* TFunk.swift in Sources */,
 				68AB648F2456E54700A3009C /* UITextView+DisableCopy.m in Sources */,
+				6877293224AC39F200FB5CC3 /* ZZSelectSitViewController.swift in Sources */,
+				68966C7A246D273B00AAD26F /* AnimationViewController.swift in Sources */,
 				1825E91B211ACF6900082DD7 /* FWNothingView.swift in Sources */,
 				1836F15F214A3C75000B50D8 /* ZZSaveClose.swift in Sources */,
 				188D137921ABEF6900DCAD7A /* ZZMyButton.swift in Sources */,
@@ -542,6 +569,7 @@
 				1825E926211ADBF800082DD7 /* GuideViewController.swift in Sources */,
 				1849B448214BAC1D00D1214D /* ZFunction.swift in Sources */,
 				18F1880B219449A700F63CD1 /* AA.swift in Sources */,
+				68F5574A24A1B0400025137E /* SwiftViewController.swift in Sources */,
 				18F94B31216C4E0D00A2CF30 /* SortViewController.swift in Sources */,
 				1872B52A1FAAAD6C002404FB /* BaseViewConteroller.swift in Sources */,
 				183B997B21269E0700B78D3F /* StackTableViewCell.swift in Sources */,

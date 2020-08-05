@@ -19,7 +19,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     var personS = [Person]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.pushViewController(AttributeViewController(), animated: true)
+        self.navigationController?.pushViewController(ZZSelectSitViewController(), animated: true)
         return;
             
         self.view.backgroundColor = UIColor.cyan
@@ -316,7 +316,7 @@ congqianyouzuolingjianshan
     }
     
     func aa(){
-        let a = 1_000_000_0000
+        let a = 10000
         let _ = Float(a)
         if let c = Float("123") {
             print(c)
