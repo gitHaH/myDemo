@@ -84,7 +84,7 @@ class ZZSelectSitViewController: UIViewController
             break
         }
         
-//        print(screenShotImg.frame)
+        print(screenShotImg.frame)
     }
     
     fileprivate func reloadFrame(){
